@@ -1,0 +1,14 @@
+.ke-carousel{position:relative;width:810px;height:320px;margin:0 auto;border:10px solid skyblue;overflow: hidden;}
+
+.ke-carousel ul{list-style:none;padding:0;margin:0;position:absolute;top:0;left:0;/*width: 4050px;*/}
+/*.ke-carousel ul li{position:absolute;}*/
+/*.ke-carousel img{float: left;}*/
+/*.ke-carousel .next,.ke-carousel .prev{position:absolute;left:0;top:50%;
+    transform: translate(0,-50%);padding:10px 5px;width:30px;height:50px;line-height:50px;background-color: rgba(0,0,0,0.3);text-align:center;color:#fff;}
+.ke-carousel .next{left:auto;right:0;background: url(../../img/arrowr.png) no-repeat;}*/
+.ke-carousel .prev,.ke-carousel .next{position:absolute;width: 20px;height: 35px;transform: translate(0,-50%);margin:0 15px;}
+.ke-carousel .prev{background: url(../img/arrowl.png) no-repeat;left:0;top:50%;}
+.ke-carousel .next{background: url(../img/arrowr.png) no-repeat;right:0;top:50%;}
+.ke-carousel .page{position: absolute;bottom:15px;left:50%;transform:translate(-50%,0);}
+.ke-carousel .page span{display:inline-block;margin:0 5px;width:15px;height:15px;line-height:10px;text-align:center;background-color:#efefef;border-radius:50%;}
+.ke-carousel .page span.active{background-color:#f60;color:#fff;}

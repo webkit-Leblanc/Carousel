@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery插件的原理(录播图)</title>
+	<link rel="stylesheet" type="text/css" href="jquery_keCarousel/jquery.keCarousel.css" />
+	<script src="jquery_keCarousel/jquery-3.2.1.js" type="text/javascript"></script>
+	<script src="jquery_keCarousel/jquery.keCarousel.js" type="text/javascript"></script>
+	<script>
+		jQuery(function($){
+			$('.box').keCarousel({
+				imgs:['img/001.jpg','img/002.jpg','img/003.jpg','img/004.jpg'],
+				width:810,
+				height:320,
+				type:'horizontal',
+				// type:'vertical',
+				duration:3000,
+				page:true
+				// marquee:false
+			})
+			// fade情况下 marquee必须为false
+		})
+	</script>
+</head>
+<body>
+	<div class="box">
+	</div>
+	<!-- <div class="box"></div> -->
+</body>
+</html>
